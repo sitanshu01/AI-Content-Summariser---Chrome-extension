@@ -1,0 +1,9 @@
+body {
+  width: 450px;
+  padding: 12px;
+}
+
+#summarizedContent {
+  max-height: 400px;
+  overflow-y: auto;
+}

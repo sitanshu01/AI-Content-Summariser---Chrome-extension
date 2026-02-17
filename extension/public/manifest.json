@@ -1,0 +1,17 @@
+{
+  "name": "AI Content Summarizer",
+  "version": "1.0.0",
+  "description": "Summarize any webpage instantly using AI. Generate quick, clear summaries of articles, blogs, and long web content with one click.",
+  "author": "calmmythm",
+  "manifest_version": 3,
+  "permissions": [
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://localhost:3000/*"
+  ],
+  "action": {
+    "default_popup": "./popup/popup.html",
+    "default_title": "content summarizer"
+  }
+}
